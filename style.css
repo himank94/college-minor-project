@@ -65,10 +65,9 @@ header nav ul li a.active {
 
 /* ===== Banner Section ===== */
 .banner {
-  background: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('banner.jpg') no-repeat center/cover;
-
+    background: 
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('banner.jpg') no-repeat center/cover;
     color: #fff;
     height: 350px;
     display: flex;
@@ -209,6 +208,9 @@ footer {
         align-items: center;
     }
 }
+
+
+
 
 
 
