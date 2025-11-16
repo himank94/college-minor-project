@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Event Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <img src="images/logo1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="register.html" class="active">Register</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Registration Form -->
+    <section class="registration">
+        <div class="container">
+            <h2>Event Registration</h2>
+            <form id="registrationForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone">
+
+                <label for="event">Event Name</label>
+                <select id="event" name="event">
+                    <option value="">--Select Event--</option>
+                    <option value="Music Concert">Music Concert</option>
+                    <option value="Art Exhibition">Art Exhibition</option>
+                    <option value="Tech Conference">Tech Conference</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Event Management System. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
